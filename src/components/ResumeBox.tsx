@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import documentPdf from '../../public/PetersonResume.pdf';
+import documentPdf from '../../public/EllissaPetersonResume.pdf';
 
 function ResumeBox() {
   return (

@@ -6,7 +6,7 @@ function SkillsBox() {
           Technical Skills
         </p>
         <p className="skills-box-text">
-          React, Node.js, JavaScrict/TypeScript, C++, Java, Python, CI/CD, Agile/Scrum Development, Cloud Technologies
+          React, Node.js, JavaScrict/TypeScript, C++, Java, Python, CI/CD, Agile/Scrum Development, and Cloud Technologies
         </p>
       </div>
     </>
