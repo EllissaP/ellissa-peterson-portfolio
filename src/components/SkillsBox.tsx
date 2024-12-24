@@ -1,16 +1,16 @@
-function InfoBox() {
+function SkillsBox() {
   return (
     <>
-      <div className="info-box">
-        <p className="info-box-title">
+      <div className="skills-box">
+        <p className="skills-box-title">
           Technical Skills
         </p>
-        <p className="box3-text">
-          [Add Something]
+        <p className="skills-box-text">
+          React, Node.js, JavaScrict/TypeScript, C++, Java, Python, CI/CD, Agile/Scrum Development, Cloud Technologies
         </p>
       </div>
     </>
   );
 }
 
-export default InfoBox;
+export default SkillsBox;
