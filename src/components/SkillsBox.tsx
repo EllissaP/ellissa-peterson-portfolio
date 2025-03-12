@@ -8,6 +8,10 @@ function SkillsBox() {
         <p className="skills-box-text">
           React, Node.js, JavaScrict/TypeScript, C++, Java, Python, CI/CD, Agile/Scrum Development, and Cloud Technologies
         </p>
+        <div className="creds">
+          <div className="gcp-cred"/>
+          <div className="aws-cred"/>
+        </div>
       </div>
     </>
   );

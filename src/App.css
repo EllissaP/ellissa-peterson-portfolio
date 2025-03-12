@@ -60,7 +60,7 @@ a:hover {
 /*
 ** Boxes
 */
-.art1, .art2, .skills-box, .resume-box, .contact-box, .hack-box, .image-box {
+.art1, .art2, .gcp-cred, .aws-cred, .skills-box, .resume-box, .contact-box, .hack-box, .image-box {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 0;
@@ -86,6 +86,27 @@ a:hover {
   position: relative;
   top: 24vh;
   left: 40vh;
+}
+
+.creds {
+  display: flex;
+  justify-self: center;
+  padding-left: 1.5em;
+  padding-right: 2.3em;
+}
+
+.gcp-cred {
+  background-image: url('/cloud-digital-leader-certification.png');
+  height: 12vh;
+  width: 12vh;
+  justify-self: center;
+}
+
+.aws-cred {
+  background-image: url('/aws-certified-cloud-practitioner.png');
+  height: 12vh;
+  width: 12vh;
+  justify-self: center;
 }
 
 .skills-box {
@@ -159,7 +180,7 @@ a:hover {
   padding-left: 1.5em;
   padding-right: 2.3em;
   padding-top: 2.5vh;
-  padding-bottom: 4vh;
+  padding-bottom: 1vh;
 }
 
 .hack-box-text {
